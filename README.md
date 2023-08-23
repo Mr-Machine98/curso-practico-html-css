@@ -1,1 +1,1 @@
-- Este es el repositorio para almacenar lo aprendido de lo practico de html y css
+- Hola este es un repositorio para realizar un clon de Google.
