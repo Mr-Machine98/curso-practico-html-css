@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+footer {
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+footer .info-general {
+    font-size: 1.5rem;
+    height: 3rem;
+    border-bottom: solid 1px lightgrey;
+}
+
+footer .info-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-links .section-links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+nav {
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .principal-section {
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .principal-section a:nth-child(4) {
+    background: #1a73e8;
+    width: 13rem;
+    height: 3rem;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+}
+
+nav .principal-section a:nth-child(4) p {
+    margin-top: 0.5rem;
+}
+
+
+nav .principal-section a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    height: 83%;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-search-general {
+    display: flex;
+    width: 70rem;
+    flex-direction: column;
+}
+
+.items-general {
+    margin: 2rem;
+}
+
+.items-search-general input {
+    height: 5rem;
+    border-radius: 25px;
+    border: lightgrey solid 1px;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    outline: none;
+}
+
+#picture-logo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+}
+
+#search-icon {
+    position: relative;
+    top: 6rem;
+    left: 4rem;    
+}
+#search-micro {
+    position: relative;
+    left: 64rem;
+    bottom: 6.1rem; 
+}
+#search-buttons {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+#search-buttons button{
+    margin-top: 0;
+    margin: 1rem;
+    height: 5rem;
+    width: 30rem;
+    border-radius: 25px;
+    border: lightgrey solid 1px;
+    color: darkgrey;
+}
